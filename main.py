@@ -55,9 +55,9 @@ def play_again():
     while True:
         play_again = input("Do you want to play again? (y/n): ").lower()
         if play_again == 'y':
-            main()
+            return
         elif play_again == 'n':
-            #print("Thanks for playing!")
+            print("Thanks for playing!")
             sys.exit()
         else:
             print("Invalid input. Please enter 'y' or 'n'.")
